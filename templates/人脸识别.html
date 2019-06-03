@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .card-header {
+            padding: 0;
+            margin: 0;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .select {
+            width: 800px;
+            height: 500px;
+            margin: auto;
+            border: solid rgba(34, 12, 12, 0.671) 2px;
+            text-align: center;
+            position: relative;
+            border-radius: 10px;
+            background-color: rgb(217, 219, 230);
+        }
+
+        .select a {
+            display: block;
+            width: 200px;
+            height: 200px;
+            border: solid rgba(68, 84, 230, 0.801) 2px;
+            border-radius: 10%
+        }
+
+        .select a:hover {
+            border: solid rgba(47, 57, 153, 0.801) 2px;
+        }
+
+        span {
+            font-size: 180px;
+        }
+
+        .selectitems1 {
+            float: left;
+            position: absolute;
+            left: 150px;
+            top: 140px;
+        }
+
+        .selectitems2 {
+            float: left;
+            position: absolute;
+            top: 140px;
+            left: 450px;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .msg ul {
+            list-style-type: none;
+        }
+
+        .card-body {
+            background-color: rgb(232, 235, 255);
+            padding-top: 20px;
+        }
+
+        .msg ul li {
+            height: 30px;
+            font-size: 16px;
+        }
+
+        .badge {
+            font-size: 40px;
+            height: 80px;
+            width: 800px;
+            padding-top: 15px;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-header">
+            <h1 class="text-center">
+                <span class="badge badge-secondary">
+                    基于tensorflow的人脸识别系统
+                </span>
+            </h1>
+        </div>
+        <div class="card-body">
+            <div class="row select">
+                <div class="selectitems1">
+                    <a href="/image">
+                        <span class="glyphicon glyphicon-picture"></span>
+                    </a>
+
+                </div>
+                <div class="selectitems2">
+                    <a href="/video">
+                        <span class="glyphicon glyphicon-facetime-video"></span>
+                    </a>
+                </div>
+                <div class="clear">
+                    <h3 class="text-center">
+                        请选择识别方式
+                    </h3>
+                    <hr>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="card-footer text-muted">
+
+            <div class="msg">
+                <ul>
+                    <li>
+                        项目名：基于tensorflow的人脸识别系统
+                    </li>
+                    <li>
+                        答辩人：龙嘉鑫，羊宏运，陈泽茂
+                    </li>
+                    <li>
+                        项目githup地址：https://github.com/ybyhy/Face-recognition-tensorflow
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
